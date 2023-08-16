@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const tareaSchema = mongoose.Schema({
-    text: {
+    texto: {
         type : String,
         required:[true,'El campo texto es obligatorio!']
     }
